@@ -19,6 +19,7 @@ var app = app || {};
         events: {
             'click .toggle': 'toggleCompleted',
             'click .edit-btn': 'edit',
+            'dblclick label': 'edit',
             'click .destroy': 'clear',
             'keypress .edit': 'updateOnEnter',
             'keydown .edit': 'revertOnEscape',
